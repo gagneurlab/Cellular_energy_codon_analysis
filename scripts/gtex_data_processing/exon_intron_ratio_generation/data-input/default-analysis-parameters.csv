@@ -1,0 +1,21 @@
+parameter,value
+dataset.type,gtex
+analysis.name,mrna-half-life-analysis
+get.protein.coding,TRUE
+is.paired.end, TRUE
+samples.file.name, annotation-samples.csv
+samples.per.condition,all
+conditions.major,all
+conditions.minor,
+annotation.table.path,/annotation/table/path
+condition.column.major,conditions.column
+condition.column.minor,
+sample.column,RNA_ID
+bam.files.directory,/bam/files/directory
+samples.to.discard.pattern,
+tpm.threshold,1
+tpm.table.path,
+threads,8
+organism,Homo sapiens
+genome.version, hg19
+gencode.version,19
